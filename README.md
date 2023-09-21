@@ -11,5 +11,5 @@
 - 🛒 **Customer Convenience**: Customers can access your menu by scanning the QR code with their smartphones, reducing physical contact with printed menus.
 
 - 💻 **Collaborators**:
-Maximiliano Chamena
+Maximiliano Chamena  
 Magurno Enzo

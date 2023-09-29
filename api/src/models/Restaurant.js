@@ -1,8 +1,9 @@
 // * RESTAURANT MODEL => Card, IdAdmin
 
-import { DataTypes, Model, Sequelize } from 'sequelize';
+const { DataTypes, Model, Sequelize } =require( 'sequelize');
 
-module.exports = (sequelize: Sequelize) => {
+module.exports = (sequelize) => {
+    
     sequelize.define('Restaurant', {
         id: {
             type: DataTypes.UUID,

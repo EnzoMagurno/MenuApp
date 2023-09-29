@@ -1,8 +1,8 @@
 //* ADMIN MODEL => ID, NAME, PASSWORD, isAdmin, localName (?)
 
-import { DataTypes, Model, Sequelize } from 'sequelize'
+const { DataTypes, Model, Sequelize }= require( 'sequelize')
 
-module.exports = (sequelize: Sequelize) => {
+module.exports = (sequelize) => {
     sequelize.define('Admin', {
         id: {
             type: DataTypes.UUID,
